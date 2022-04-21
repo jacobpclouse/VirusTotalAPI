@@ -3,5 +3,6 @@
 Writing a program that uses the VirusTotal Public API to scan files and check for malware
 
 ## Links Used:
-https://developers.virustotal.com/reference/public-vs-premium-api
-https://jsonapi.org/ (The standard being followed)
+- Official API Docs: https://developers.virustotal.com/reference/public-vs-premium-api
+- The standard being followed: https://jsonapi.org/ 
+- Helpful video: https://www.youtube.com/watch?v=A-mjWOE9Mcc
