@@ -1,8 +1,6 @@
 # source video: https://www.youtube.com/watch?v=A-mjWOE9Mcc
 
 
-from collections import _VT_co
-from urllib import response
 import requests
 import time
 import json
@@ -10,12 +8,14 @@ import json
 
 indicators = [
     'https://www.threatcrowd.org/',
-    'https://www.jacobpclouse.com/'
+    'https://www.google.com/',
+    'https://www.bing.com'
 ]
 
 
-api_key = 'api_key_here'
-
+#api_key = 'api_key_here'
+api_key = input("Input your API key: ")
+print(api_key)
 
 url = 'https://www.virustotal.com/vtapi/v2/url/report'
 
