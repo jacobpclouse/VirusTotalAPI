@@ -44,3 +44,6 @@ for site in indicators:
         print('url not found')
 
     time.sleep(15)
+
+
+# load data coming back into text file and dicitonary
