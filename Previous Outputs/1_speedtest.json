@@ -1,10 +1,10 @@
 {
-  "scan_id": "d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651791660",
-  "resource": "https://www.google.com/",
-  "url": "https://www.google.com/",
+  "scan_id": "e1a56c0aad825d369b05b6f236acacef63c3f6f2e9777a5c7a8db49aa1bd80bf-1651764997",
+  "resource": "https://www.speedtest.net/",
+  "url": "https://www.speedtest.net/",
   "response_code": 1,
-  "scan_date": "2022-05-05 23:01:00",
-  "permalink": "https://www.virustotal.com/gui/url/d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86/detection/u-d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651791660",
+  "scan_date": "2022-05-05 15:36:37",
+  "permalink": "https://www.virustotal.com/gui/url/e1a56c0aad825d369b05b6f236acacef63c3f6f2e9777a5c7a8db49aa1bd80bf/detection/u-e1a56c0aad825d369b05b6f236acacef63c3f6f2e9777a5c7a8db49aa1bd80bf-1651764997",
   "verbose_msg": "Scan finished, scan information embedded in this object",
   "filescan_id": null,
   "positives": 0,
@@ -36,7 +36,7 @@
     },
     "PhishLabs": {
       "detected": false,
-      "result": "clean site"
+      "result": "unrated site"
     },
     "K7AntiVirus": {
       "detected": false,
@@ -229,12 +229,12 @@
     "Yandex Safebrowsing": {
       "detected": false,
       "result": "clean site",
-      "detail": "http://yandex.com/infected?l10n=en&url=https://www.google.com/"
+      "detail": "http://yandex.com/infected?l10n=en&url=https://www.speedtest.net/"
     },
     "MalwareDomainList": {
       "detected": false,
       "result": "clean site",
-      "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.google.com"
+      "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.speedtest.net"
     },
     "Lumu": {
       "detected": false,
