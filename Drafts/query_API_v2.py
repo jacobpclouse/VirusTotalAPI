@@ -91,8 +91,8 @@ object_id = 'report'
 
 # api Url to send to (will adapt for v3)
 #url = 'https://www.virustotal.com/vtapi/v2/url/report'
-url = f'https://www.virustotal.com/vtapi/v2/{collection_name}/{object_id}'
-
+#url = f'https://www.virustotal.com/vtapi/v2/{collection_name}/{object_id}'
+url = "https://www.virustotal.com/api/v3/urls"
 
 # addresses to test
 target_addresses = [
@@ -136,9 +136,22 @@ for site in target_addresses:
     # get new name for folder
     outputPrefix = makeOutputFileName(site,count)
 
-    params1 = {'apikey': api_key, 'resource': site}
-    response = requests.get(url, params=params1)
+
+# OLD v2
+#    params1 = {'apikey': api_key, 'resource': site}
+#    response = requests.get(url, params=params1)
+
+
+    # from virus total v3: https://developers.virustotal.com/reference/scan-url
+    headers = {
+        "Accept": "application/json",
+        "Content-Type": "application/x-www-form-urlencoded"
+    }
+
+    response = requests.get(url, headers=headers)
     response_json = json.loads(response.content)
+
+    print(response.text)
 
     #print(response_json['scans'])
     # Write out full response in
