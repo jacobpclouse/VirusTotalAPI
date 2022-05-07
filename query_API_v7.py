@@ -3,29 +3,23 @@
 # ---------
 
 
-# user votes
+# user votes (its the newer api but a good reference)
 # https://www.virustotal.com/api/v3/urls/{url_id}/user_votes
+# https://developers.virustotal.com/reference/objects
 
 # Source Video
-#https://youtu.be/A-mjWOE9Mcc?t=346
+# https://youtu.be/A-mjWOE9Mcc?t=346
 
 # Links used:
 # Find and replace in Python: https://www.geeksforgeeks.org/python-string-replace/
 # split string python: https://www.w3schools.com/python/ref_string_split.asp
 
 '''
-To ensure security, I will ask the user to input their API key from the bash terminal (or from a seperat file that is not tracked)
- -- Could also pass key as command line arguments after the python command
-
-
-        https://developers.virustotal.com/reference/objects
-Example api format: https://www.virustotal.com/api/v3/{collection name}/{object id}
-
+Overview:
+Program will ask user to look at a few sites and see if they are malicious
+User will enter if they think any of the sites are malicous and, enter a yes or no in a variable
+It will then query the results, compare them to what the user wrote and store the outputs
 '''
-
-###IDEAS:
-# perhaps use the graphing python function to show a heatmap of how many sites flagged it?
-# load data coming back into text file and dicitonary
 
 
 # -=-=-=-=-
@@ -136,6 +130,14 @@ use_this_datetime = defang_datetime()
 # 
 # -=-=-=-=-
 
+# Variable to store user's name, will not proceed until it is filled
+users_name = ''
+while users_name == '':
+    users_name = input('Howdy! What is your name? ')
+print(f'Hi there, {users_name}, it is nice to meet you!\nGet ready to play a game.')
+
+# array of user's answers
+user_answers = []
 
 # api_key grabbed here from user (could also look for a file)
 api_key = input("Input your API key: ")
