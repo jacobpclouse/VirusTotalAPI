@@ -1,0 +1,425 @@
+[
+  "The name of this site is: www.bing.com",
+  "The day this test was run was: 2022-05-07 13:49:48.661265",
+  "----- SCANS -----",
+  {
+    "scan_id": "53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651921725",
+    "resource": "https://www.bing.com",
+    "url": "https://www.bing.com/",
+    "response_code": 1,
+    "scan_date": "2022-05-07 11:08:45",
+    "permalink": "https://www.virustotal.com/gui/url/53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0/detection/u-53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651921725",
+    "verbose_msg": "Scan finished, scan information embedded in this object",
+    "filescan_id": null,
+    "positives": 0,
+    "total": 92,
+    "scans": {
+      "CMC Threat Intelligence": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Snort IP sample list": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "VX Vault": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Armis": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "ViriBack": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Comodo Valkyrie Verdict": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "PhishLabs": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "K7AntiVirus": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "CINS Army": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Cyren": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Quttera": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "BlockList": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "OpenPhish": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "0xSI_f33d": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "Feodo Tracker": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Web Security Guard": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Scantitan": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "AlienVault": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Sophos": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Phishtank": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "EonScope": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Cyan": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "Spam404": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "SecureBrain": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Hoplite Industries": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "CRDF": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Rising": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Fortinet": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "alphaMountain.ai": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Lionic": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Virusdie External Site Scan": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Artists Against 419": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Google Safebrowsing": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "SafeToOpen": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "ADMINUSLabs": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "CyberCrime": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Heimdal Security": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "AutoShun": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "Trustwave": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "AICC (MONITORAPP)": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "CyRadar": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Dr.Web": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Emsisoft": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Abusix": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Webroot": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Avira": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "securolytics": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Antiy-AVL": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Acronis": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Quick Heal": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "DNS8": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "benkow.cc": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "EmergingThreats": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Chong Lua Dao": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Yandex Safebrowsing": {
+        "detected": false,
+        "result": "clean site",
+        "detail": "http://yandex.com/infected?l10n=en&url=https://www.bing.com/"
+      },
+      "MalwareDomainList": {
+        "detected": false,
+        "result": "clean site",
+        "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.bing.com"
+      },
+      "Lumu": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "zvelo": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Kaspersky": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Sucuri SiteCheck": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "desenmascara.me": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "URLhaus": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "PREBYTES": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "StopForumSpam": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Blueliv": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Netcraft": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "ZeroCERT": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Phishing Database": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "MalwarePatrol": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "MalBeacon": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Sangfor": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "IPsum": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Malwared": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "BitDefender": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "GreenSnow": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "G-Data": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "StopBadware": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "SCUMWARE.org": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "malwares.com URL checker": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "NotMining": {
+        "detected": false,
+        "result": "unrated site"
+      },
+      "Forcepoint ThreatSeeker": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Certego": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "ESET": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Threatsourcing": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "MalSilo": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Nucleon": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "BADWARE.INFO": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "ThreatHive": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "FraudScore": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Tencent": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Bfore.Ai PreCrime": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Baidu-International": {
+        "detected": false,
+        "result": "clean site"
+      }
+    }
+  },
+  "----- COMMENTS -----",
+  {
+    "response_code": 1,
+    "resource": "www.bing.com",
+    "comments": [
+      {
+        "date": "20200718210510",
+        "comment": "Przeka\u017ccie to do Play.pl \u017ce ich ip jest zawirusowane linki dowodowe dow\u00f3d \u017ce nale\u017cy do sieci play. \nLinki:\nhttps://archive.today/2020.07.18-193903/https://www.virustotal.com/gui/url/6cd23fee1b47173e43c62e5b2765a9c9b6533fa699371abafee24ec937350404/details\nhttps://archive.today/2020.07.18-193950/https://www.virustotal.com/gui/ip-address/5.173.233.136/detection\nI sprawd\u017acie czy kto\u015b nie usun\u0105\u0142 moich komentarzy bo zdalnie wy\u0142\u0105czyli komputer kilka razy po tym jak T-Mobile.pl ma zawirusowan\u0105 stron\u0119. \nLink:\nhttps://archive.today/2020.07.18-200700/https://www.virustotal.com/gui/url/64c0f1a7f60d7b73a0bb12b777972f79bcf741e7c3fbe579d8269342b9dfd751/detection"
+      },
+      {
+        "date": "20200414231228",
+        "comment": "Bing is a search engine made by Microsoft and is safe"
+      },
+      {
+        "date": "20191102213054",
+        "comment": "Here is a wacko who trolls everywhere, claims that he came up with the name of \"Bing\", that Microsoft hacked him, and destroyed his property.\nHe also blames everyone for his failed attempt of a computer tech support business.\n\n[b]Where did Bing really come from?[/b] by Dale Jake Corner\n\n[i]\"I will answer that question here in full.\n\nI can't promise that any of you will like the answer, or even believe it, but it will be the truth. I can promise you that much. You are all welcome to comment on it as you like, just please don't be insulting or trolleriffic. I would like to not have to respond in the resoundingly negative.\n\nBing started as a set of simple conversations at the University of Washington between Ioana M Preda, Professor William H Erdly PHD of computing and software systems and myself, Dale Jake Corner.\n\nI was an intern working under a national science foundation grant (# CCF-0722176) for the building of an application for the dissemination and gathering of mathematical knowledge for the students to use. The main holder of the Grant was Bellevue college, administrator and project overseer was the esteemed professor, project manager was Ioana.\n\nEvery week or two we would have a milestone meeting where we would discuss the project, the progress, and then we would discuss general applied computing.\n\nDuring the last three meetings, this was back in 2008 just before the housing market crash, the first conversation was simple enough. The esteemed professor started a conversation about the \"browser war\". I had to instruct the professor that the browser war was finished because anyone could pick any browser they wanted. In effect the public itself ended the browser war by their own choices.\n\nThe professor found that interesting and asked me this, \"then what is the next war?\". I sat quietly and thought for a moment, I was happy to be making 19.75$ per hour, more than I had ever made in my life per hour. I responded with this \"There is always another software war to be fought, I guess the next war will be the search engine war, google currently controls 80-90% of all searches made.\" The professor asked me this, \"how would you propose to start a search engine war with a company that has that amount of market share?\" I was not thinking right, I thought the professor would get me a good job, for he had friends at Microsoft and so I was willing to attempt to impress him. I also decided to take a slight jab at the professor, to see where the line of his comedy was. So I responded with this, \"Well professor, anyone could start the war, but Microsoft could just do what it has always done.\" The professors face changed, not anger, but a look more of this, Oh, here comes the 20 something student who is gonna tell me, who has friends at Microsoft in high places, how Microsoft \"does things\". He told me to elaborate, so I did, foolishly thinking that my creativity would get me a good job. \"Well professor, one could just simply take google's idea, and put a very pretty picture behind it. Microsoft already has the search algorithm from MSN search. Find a shorter domain name, preferably less than 5 characters long with a catchiness to it.\" The professor laughed it off and basically told me that anyone who would do that would get sued over it. I agreed and with that the conversation ended.\n\nTwo weeks now went by, we were nearing the end of the development cycle and the grant, another meeting. Again, in the presence of Ioana M Preda and professor Erdly was myself. We discussed the software we built, how close to completion we were, the professor had an idea for the project, which he shared, I liked it and responded quickly with \"Bing man, that's a really good idea, we will implement it before completion.\" The professor looked at me strangely, inquisitively to be exact and said \"Bing, what is that, I don't keep up on the new vernacular.\" I responded, \"Well, its the sound your car door makes when its open, it Bings at you, or when you turn on a light bulb it goes Bing, or when you are in the elevator and you go past the floors the elevator goes, Bing, Bing, Bing, it signifies an idea, action or what have you.\" \"I see he responded.\" The meeting ended.\n\nSuffice it to say that the project was completed, deployed and tested. I stayed on the project for 3 more months for free. In the hopes of getting a good job of course. Then it was over and after a few weeks I returned home one day, I turned on the TV, and there it was, the commercial, Bing, microsofts new search engine, I went to it, exactly as I had said and described, googles idea with a pretty picture behind it.\n\nAfter that I had been hacked, added to the Knebber AKA Zues BotNetwork, which I subsequently destroyed by means that shall not be discussed, was trolled over several games I played, had things I had written over those games taken and used on albums, even as soon as earlier this year, had my life threatened, my property destroyed and many other nasty things which have only done one thing, make me harder than I already was.\n\nThe only contact since I have had with Microsoft's vender hiring agencies have been sketchy at best. Wipro attempted to get me to send them my C# source code for AwesomeAds.US and Vote4Vids.com (effectively untrollable web sites). I did have an interview in the IE building, I think its building 5 if I remember right, didn't get that job either. I was told while being proactive during the interview that \"The developers don't care\". That's a direct quote from the person interviewing me.\n\nHere is one of the songs, the lyrics that was taken and sold to a band over a game called Combat arms. The shaved headed man is a representation of my former likeness.\n\nhttp://www.youtube.com/watch?v=mESR83Gf7xE\n\nEveryone else is doing fine, as for me, I am now 35, live with my grandparents, lift weights about 2-3 times a week for 7 hours straight at a time. I have two degrees and 5 certifications. No job, no wife, no children, no home that I own, no privacy, just scarcity, I guess you can imagine how I feel, but I doubt it.\"[/i]\n\nSource: https://social.technet.microsoft.com/Forums/office/en-US/613febae-ff50-4dd3-a95d-31c6254f79f4/where-did-bing-really-come-from?forum=saas\n\nHe has an account here on Virus Total and you can look through his \"phony\" data and see he makes many accusations without any proof. He merely links whatever he finds from a targeted website and makes up a story as a way of interpreting what the data means to justify him calling them \"scammers\" or \"hackers\" with malicious reasons.\n\nDale J. Corner\nhttps://www.virustotal.com/gui/user/DALEJAKECORNER/comments"
+      },
+      {
+        "date": "20190530033052",
+        "comment": "Bill Gates can go fuck himself!"
+      },
+      {
+        "date": "20190214205055",
+        "comment": "That's search engine from Microsoft!\n\n \n\n \n\n#safe #goodware"
+      },
+      {
+        "date": "20190125142006",
+        "comment": "#badsite"
+      },
+      {
+        "date": "20141202165638",
+        "comment": "Bing is a popular search engine developed by Microsoft, in their own words:\n\n[i]Bing is a search engine that brings together the best of search and people in your social networks to help you spend less time searching and more time doing.[/i]\n\nYou may learn more about it at http://en.wikipedia.org/wiki/Bing. \n\n#goodware #benign"
+      }
+    ],
+    "verbose_msg": "Resource found, comments, if any, returned here"
+  }
+]

@@ -13,6 +13,7 @@
 # Links used:
 # Find and replace in Python: https://www.geeksforgeeks.org/python-string-replace/
 # split string python: https://www.w3schools.com/python/ref_string_split.asp
+# handling multiple conditions in python while loops: https://initialcommit.com/blog/python-while-loop-multiple-conditions
 
 '''
 Overview:
@@ -58,7 +59,7 @@ def makeOutputFileName(incomingURL,currentCount):
 
     # split on .
     newName = newName.split('.')
-    print(newName[0])
+    #print(newName[0])
 
     return newName[0]
 
@@ -122,7 +123,11 @@ count = 0
 # Grab current date & time from function & store in variable
 use_this_datetime = defang_datetime()
 
+# number guessed right
+count_right = 0
 
+# number guessed wrong
+count_wrong = 0
 
 # -=-=-=-=-
 #
@@ -136,8 +141,9 @@ while users_name == '':
     users_name = input('Howdy! What is your name? ')
 print(f'Hi there, {users_name}, it is nice to meet you!\nGet ready to play a game.')
 
-# array of user's answers
+# creating array to store user's answers 
 user_answers = []
+
 
 # api_key grabbed here from user (could also look for a file)
 api_key = input("Input your API key: ")
@@ -151,6 +157,13 @@ ParentDirectory = f'VirusTotal_APIv2_Scan_{use_this_datetime}'
 makeFolder(ParentDirectory)
 
 
+# letting user know how to play the game
+print('\n\nHow this game works:\nI am going to show you a list of URLs and its up to you to decide if they look malicous or not.\n')
+time.sleep(2)
+print('I will then scan the URLs into VirusTotal and we will get the results back. \nIf less than 7 sites show it as malicous, then you win that round!')
+time.sleep(2)
+print('Because of limits on the number of request to VirusTotals Free API, there is a 15 second wait between requests\nPlease be patient!')
+
 # print out seperator
 with open('Scan_Log.txt','a') as vt:
     vt.write('\n\n-=-=-=-=-=-=-=-=-=-=-=-\n') and vt.write(f'Run on {use_this_datetime}') and vt.write('\n-=-=-=-=-=-=-=-=-=-=-=-\n')
@@ -163,6 +176,16 @@ for site in target_addresses:
 
     # incriment count
     count = count + 1
+
+    # --
+
+    # Asking user if they think site is malicious
+    user_says_if_site_bad = ''
+    while (user_says_if_site_bad != 'yes') and (user_says_if_site_bad != 'no'):
+        user_says_if_site_bad = input(f"Does: {site} look like a dangerous URL? (answer with yes or no): ").lower()
+    print(f'You said: {user_says_if_site_bad}\n')
+
+    # 
 
     # get new name for folder
     outputPrefix = makeOutputFileName(site,count)
@@ -197,6 +220,33 @@ for site in target_addresses:
     time.sleep(15)
 
 
+    # -- See if the response has more than 6 host identifying it as malicous
+    if response_json['positives'] <= 0:
+        is_site_bad = 'no'
+    else:
+        is_site_bad = 'yes'
+
+
+    # -- Outputing results to user and to log
+    if (is_site_bad == user_says_if_site_bad):
+        # incriment count right
+        count_right = count_right + 1
+
+        # create output string and print it
+        output_to_file = f'{users_name}, you were correct for {site}!\n\n'
+        print(output_to_file)
+
+    else:
+        # incriment count wrong
+        count_wrong = count_wrong + 1
+
+        # create output string and print it
+        output_to_file = f'Sorry {users_name}, it looks like you were not correct for {site}...\n\n'
+        print(output_to_file)
+
+    # appending results to array
+    user_answers.append(output_to_file)
+
 # --- construct comments url 
     # Indicating that comments are comming next
     siteInfoArray.append(f"----- COMMENTS -----")
@@ -220,13 +270,18 @@ for site in target_addresses:
 
     # Write out full response in
     writeOutToFile(siteInfoArray,use_this_datetime,outputPrefix,ParentDirectory)
-    #writeOutToFile(siteInfoArray,outputPrefix)
 
 
     # wait until next response
     time.sleep(15)
 
 
+
+# Array output name
+array_output_name = f'{users_name}_results_'
+
+# Write out array results to file
+writeOutToFile(user_answers,use_this_datetime,array_output_name,ParentDirectory)
 
 
 '''
@@ -256,4 +311,6 @@ print (" ")
 myLogo()
 
 
-
+# print out seperator
+with open('Scan_Log.txt','a') as vt:
+    vt.write(f'{users_name} got {count_right} attempts right and {count_wrong} attempts wrong\n\n')
