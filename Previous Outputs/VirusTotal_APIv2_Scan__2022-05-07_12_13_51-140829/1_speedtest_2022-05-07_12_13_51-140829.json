@@ -1,14 +1,14 @@
 [
-  "The name of this site is: www.geeksforgeeks.org/",
-  "The day this test was run was: 2022-05-06 23:02:08.882153",
+  "The name of this site is: www.speedtest.net/",
+  "The day this test was run was: 2022-05-07 12:13:55.320357",
   "----- SCANS -----",
   {
-    "scan_id": "eefb2e5ec0262ec675759e9647e70199d09c319487466258a96c79321dd6c903-1651530560",
-    "resource": "https://www.geeksforgeeks.org/",
-    "url": "https://www.geeksforgeeks.org/",
+    "scan_id": "e1a56c0aad825d369b05b6f236acacef63c3f6f2e9777a5c7a8db49aa1bd80bf-1651764997",
+    "resource": "https://www.speedtest.net/",
+    "url": "https://www.speedtest.net/",
     "response_code": 1,
-    "scan_date": "2022-05-02 22:29:20",
-    "permalink": "https://www.virustotal.com/gui/url/eefb2e5ec0262ec675759e9647e70199d09c319487466258a96c79321dd6c903/detection/u-eefb2e5ec0262ec675759e9647e70199d09c319487466258a96c79321dd6c903-1651530560",
+    "scan_date": "2022-05-05 15:36:37",
+    "permalink": "https://www.virustotal.com/gui/url/e1a56c0aad825d369b05b6f236acacef63c3f6f2e9777a5c7a8db49aa1bd80bf/detection/u-e1a56c0aad825d369b05b6f236acacef63c3f6f2e9777a5c7a8db49aa1bd80bf-1651764997",
     "verbose_msg": "Scan finished, scan information embedded in this object",
     "filescan_id": null,
     "positives": 0,
@@ -233,12 +233,12 @@
       "Yandex Safebrowsing": {
         "detected": false,
         "result": "clean site",
-        "detail": "http://yandex.com/infected?l10n=en&url=https://www.geeksforgeeks.org/"
+        "detail": "http://yandex.com/infected?l10n=en&url=https://www.speedtest.net/"
       },
       "MalwareDomainList": {
         "detected": false,
         "result": "clean site",
-        "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.geeksforgeeks.org"
+        "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.speedtest.net"
       },
       "Lumu": {
         "detected": false,
@@ -389,8 +389,17 @@
   "----- COMMENTS -----",
   {
     "response_code": 1,
-    "resource": "www.geeksforgeeks.org/",
-    "comments": [],
+    "resource": "www.speedtest.net/",
+    "comments": [
+      {
+        "date": "20180611062457",
+        "comment": "lol"
+      },
+      {
+        "date": "20180520184150",
+        "comment": "https://www.virustotal.com/#/domain/tweakbit.com"
+      }
+    ],
     "verbose_msg": "Resource found, comments, if any, returned here"
   }
 ]

@@ -1,14 +1,14 @@
 [
   "The name of this site is: www.google.com/",
-  "The day this test was run was: 2022-05-06 23:02:39.401858",
+  "The day this test was run was: 2022-05-07 12:14:56.382729",
   "----- SCANS -----",
   {
-    "scan_id": "d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651889266",
+    "scan_id": "d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651939014",
     "resource": "https://www.google.com/",
     "url": "https://www.google.com/",
     "response_code": 1,
-    "scan_date": "2022-05-07 02:07:46",
-    "permalink": "https://www.virustotal.com/gui/url/d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86/detection/u-d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651889266",
+    "scan_date": "2022-05-07 15:56:54",
+    "permalink": "https://www.virustotal.com/gui/url/d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86/detection/u-d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651939014",
     "verbose_msg": "Scan finished, scan information embedded in this object",
     "filescan_id": null,
     "positives": 0,

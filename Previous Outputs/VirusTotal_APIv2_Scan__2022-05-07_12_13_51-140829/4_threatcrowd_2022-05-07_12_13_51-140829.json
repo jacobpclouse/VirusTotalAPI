@@ -1,18 +1,18 @@
 [
-  "The name of this site is: www.geeksforgeeks.org/",
-  "The day this test was run was: 2022-05-06 23:02:08.882153",
+  "The name of this site is: www.threatcrowd.org/",
+  "The day this test was run was: 2022-05-07 12:15:27.294780",
   "----- SCANS -----",
   {
-    "scan_id": "eefb2e5ec0262ec675759e9647e70199d09c319487466258a96c79321dd6c903-1651530560",
-    "resource": "https://www.geeksforgeeks.org/",
-    "url": "https://www.geeksforgeeks.org/",
+    "scan_id": "a07e8c32f99f6c178c5c44e5d3cafa8fd3b43375f9f8e51e9619ff8823c9d80d-1645736923",
+    "resource": "https://www.threatcrowd.org/",
+    "url": "https://www.threatcrowd.org/",
     "response_code": 1,
-    "scan_date": "2022-05-02 22:29:20",
-    "permalink": "https://www.virustotal.com/gui/url/eefb2e5ec0262ec675759e9647e70199d09c319487466258a96c79321dd6c903/detection/u-eefb2e5ec0262ec675759e9647e70199d09c319487466258a96c79321dd6c903-1651530560",
+    "scan_date": "2022-02-24 21:08:43",
+    "permalink": "https://www.virustotal.com/gui/url/a07e8c32f99f6c178c5c44e5d3cafa8fd3b43375f9f8e51e9619ff8823c9d80d/detection/u-a07e8c32f99f6c178c5c44e5d3cafa8fd3b43375f9f8e51e9619ff8823c9d80d-1645736923",
     "verbose_msg": "Scan finished, scan information embedded in this object",
     "filescan_id": null,
     "positives": 0,
-    "total": 92,
+    "total": 93,
     "scans": {
       "CMC Threat Intelligence": {
         "detected": false,
@@ -22,9 +22,9 @@
         "detected": false,
         "result": "clean site"
       },
-      "VX Vault": {
+      "0xSI_f33d": {
         "detected": false,
-        "result": "clean site"
+        "result": "unrated site"
       },
       "Armis": {
         "detected": false,
@@ -66,9 +66,9 @@
         "detected": false,
         "result": "clean site"
       },
-      "0xSI_f33d": {
+      "VX Vault": {
         "detected": false,
-        "result": "unrated site"
+        "result": "clean site"
       },
       "Feodo Tracker": {
         "detected": false,
@@ -233,12 +233,12 @@
       "Yandex Safebrowsing": {
         "detected": false,
         "result": "clean site",
-        "detail": "http://yandex.com/infected?l10n=en&url=https://www.geeksforgeeks.org/"
+        "detail": "http://yandex.com/infected?l10n=en&url=https://www.threatcrowd.org/"
       },
       "MalwareDomainList": {
         "detected": false,
         "result": "clean site",
-        "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.geeksforgeeks.org"
+        "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.threatcrowd.org"
       },
       "Lumu": {
         "detected": false,
@@ -301,6 +301,10 @@
         "result": "clean site"
       },
       "IPsum": {
+        "detected": false,
+        "result": "clean site"
+      },
+      "Spamhaus": {
         "detected": false,
         "result": "clean site"
       },
@@ -389,7 +393,7 @@
   "----- COMMENTS -----",
   {
     "response_code": 1,
-    "resource": "www.geeksforgeeks.org/",
+    "resource": "www.threatcrowd.org/",
     "comments": [],
     "verbose_msg": "Resource found, comments, if any, returned here"
   }

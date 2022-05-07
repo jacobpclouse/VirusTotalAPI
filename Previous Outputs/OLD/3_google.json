@@ -1,10 +1,10 @@
 {
-  "scan_id": "53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651846489",
-  "resource": "https://www.bing.com",
-  "url": "https://www.bing.com/",
+  "scan_id": "d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651767961",
+  "resource": "https://www.google.com/",
+  "url": "https://www.google.com/",
   "response_code": 1,
-  "scan_date": "2022-05-06 14:14:49",
-  "permalink": "https://www.virustotal.com/gui/url/53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0/detection/u-53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651846489",
+  "scan_date": "2022-05-05 16:26:01",
+  "permalink": "https://www.virustotal.com/gui/url/d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86/detection/u-d0e196a0c25d35dd0a84593cbae0f38333aa58529936444ea26453eab28dfc86-1651767961",
   "verbose_msg": "Scan finished, scan information embedded in this object",
   "filescan_id": null,
   "positives": 0,
@@ -229,12 +229,12 @@
     "Yandex Safebrowsing": {
       "detected": false,
       "result": "clean site",
-      "detail": "http://yandex.com/infected?l10n=en&url=https://www.bing.com/"
+      "detail": "http://yandex.com/infected?l10n=en&url=https://www.google.com/"
     },
     "MalwareDomainList": {
       "detected": false,
       "result": "clean site",
-      "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.bing.com"
+      "detail": "http://www.malwaredomainlist.com/mdl.php?search=www.google.com"
     },
     "Lumu": {
       "detected": false,

@@ -1,14 +1,14 @@
 [
   "The name of this site is: www.bing.com",
-  "The day this test was run was: 2022-05-06 23:03:40.634103",
+  "The day this test was run was: 2022-05-07 12:15:58.028904",
   "----- SCANS -----",
   {
-    "scan_id": "53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651886473",
+    "scan_id": "53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651921725",
     "resource": "https://www.bing.com",
     "url": "https://www.bing.com/",
     "response_code": 1,
-    "scan_date": "2022-05-07 01:21:13",
-    "permalink": "https://www.virustotal.com/gui/url/53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0/detection/u-53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651886473",
+    "scan_date": "2022-05-07 11:08:45",
+    "permalink": "https://www.virustotal.com/gui/url/53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0/detection/u-53c485f5b860b0f35f45a47d699b9517ed09d4337384e631601a5e245db8c3c0-1651921725",
     "verbose_msg": "Scan finished, scan information embedded in this object",
     "filescan_id": null,
     "positives": 0,
